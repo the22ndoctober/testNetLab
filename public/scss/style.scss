@@ -101,6 +101,7 @@ body{
   font-weight: regular;
 }
 .nav-bar-item{
+  text-decoration: none;
   text-transform: uppercase;
   color: $font-color-dark;
   font-family: $font-secondery;
@@ -128,6 +129,10 @@ body{
   height: 211px;
   display: flex;
   flex-direction: column;
+
+  &__burger{
+    display: none;
+  }
 }
 
 .header-title{
@@ -141,6 +146,7 @@ body{
 }
 
 .nav-bar{
+
   margin: 0 auto;
   border-top: 1px solid $border-nav;
   width: 1132px;
@@ -154,7 +160,7 @@ body{
     display: flex;
     justify-content: space-between;
   }
-
+  
   
 }
 

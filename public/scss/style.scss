@@ -234,7 +234,7 @@ body{
     &Container{
       display: flex;
       flex-direction: column;
-      row-gap: 30px;
+      row-gap: 70px;
     }
     &Item{
       background-color: #fff;
@@ -291,8 +291,7 @@ body{
     &Button{
       &Container{
         padding: 25px;
-        position: absolute;
-        bottom: -100px;
+        
       }
       &-latestPosts{
         width: 157px;      
